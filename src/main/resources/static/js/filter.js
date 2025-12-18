@@ -1,9 +1,7 @@
-
-
-
 function loadCategories(categories)
 {
     const select = document.getElementById('category-select');
+    console.log(categories);
 
     categories.forEach(c => {
         const option = document.createElement('option');
