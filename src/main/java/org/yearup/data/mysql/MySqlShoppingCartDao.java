@@ -143,4 +143,23 @@ public class MySqlShoppingCartDao extends MySqlDaoBase implements ShoppingCartDa
             throw new RuntimeException(e);
         }
     }
+
+    @Override
+    public void removeProduct(int userId, int productId) 
+    {
+        String sql = "DELETE FROM shopping_cart WHERE user_id = ? AND product_id = ?";
+        
+        try (Connection connection = getConnection()) 
+        {
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setInt(1, userId);
+            statement.setInt(2, productId);
+            
+            statement.executeUpdate();
+        } 
+        catch (SQLException e) 
+        {
+            throw new RuntimeException(e);
+        }
+    }
 }
