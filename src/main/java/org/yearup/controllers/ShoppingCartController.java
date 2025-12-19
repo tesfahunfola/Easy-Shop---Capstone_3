@@ -140,4 +140,29 @@ public class ShoppingCartController
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
     }
+
+    // DELETE method to remove a specific product from the cart
+    // https://localhost:8080/cart/products/15
+    @DeleteMapping("products/{productId}")
+    public ShoppingCart removeProductFromCart(@PathVariable int productId, Principal principal)
+    {
+        try
+        {
+            // get the currently logged in username
+            String userName = principal.getName();
+            // find database user by userId
+            User user = userDao.getByUserName(userName);
+            int userId = user.getId();
+
+            // remove the product from the cart
+            shoppingCartDao.removeProduct(userId, productId);
+            
+            // return the updated cart
+            return shoppingCartDao.getByUserId(userId);
+        }
+        catch(Exception e)
+        {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
+        }
+    }
 }
