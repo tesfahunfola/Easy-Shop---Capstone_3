@@ -363,35 +363,30 @@ capstone-api-starter/
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home-page.png)
+![Home Page](<img width="960" height="564" alt="1Screenshot 2025-12-19 033614" src="https://github.com/user-attachments/assets/118df220-fc9a-4e27-8b1a-3f8fd98592b9" />)
+
 *Browse products by category with intuitive navigation*
 
-### Product Catalog
-![Product Catalog](screenshots/product-catalog.png)
-*Filter products by category, price range, and subcategory*
-
-### Product Details
-![Product Details](screenshots/product-details.png)
-*View detailed product information and add to cart*
-
 ### Shopping Cart
-![Shopping Cart](screenshots/shopping-cart.png)
+![Shopping Cart](<img width="960" height="564" alt="shopping cart" src="https://github.com/user-attachments/assets/8ac3d2bb-737f-4bee-805e-1c3a04db0ff9" />)
+
 *Manage cart items with selective checkout options*
 
 ### Checkout Page
-![Checkout Page](screenshots/checkout-page.png)
+![Checkout Page](<img width="960" height="564" alt="checkout" src="https://github.com/user-attachments/assets/1b4dcd43-b5ca-409b-89c2-9e3289e2a478" />)
 *Review selected items before confirming order*
 
 ### User Profile
-![User Profile](screenshots/user-profile.png)
+![User Profile](<img width="960" height="564" alt="profile" src="https://github.com/user-attachments/assets/3d857408-16c2-4de4-bf51-818fe6be2597" />)
 *Update personal information and shipping address*
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](<img width="960" height="564" alt="admin" src="https://github.com/user-attachments/assets/362a39f9-9b33-4298-a9f6-56bd47472218" />)
+
 *Manage products and categories (Admin only)*
 
 ### Login/Register
-![Authentication](screenshots/login-register.png)
+![Authentication](<img width="960" height="564" alt="login" src="https://github.com/user-attachments/assets/e984016d-a25a-476c-8369-45cd31a34072" />)
 *Secure user authentication with JWT tokens*
 
 ---
@@ -471,7 +466,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Tesfahun Fola**
 - GitHub: [@tesfahunfola](https://github.com/tesfahunfola)
-- Email: folatesfahun@example.com
+- Email: folatesfahun@gmail.com
 - LinkedIn: [Tesfahun Fola](https://linkedin.com/in/tesfahun-fola)
 
 **Project Link:** [https://github.com/tesfahunfola/Easy-Shop---Capstone_3](https://github.com/tesfahunfola/Easy-Shop---Capstone_3)
