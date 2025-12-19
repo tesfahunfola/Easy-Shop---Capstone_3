@@ -363,7 +363,7 @@ capstone-api-starter/
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](<img width="960" height="564" alt="1Screenshot 2025-12-19 033614" src="https://github.com/user-attachments/assets/118df220-fc9a-4e27-8b1a-3f8fd98592b9" />)
+![Home Page]<img width="960" height="564" alt="1Screenshot 2025-12-19 033614" src="https://github.com/user-attachments/assets/118df220-fc9a-4e27-8b1a-3f8fd98592b9" />
 
 *Browse products by category with intuitive navigation*
 
